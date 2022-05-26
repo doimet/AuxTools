@@ -14,6 +14,14 @@
 ![Image](docs/images/screenshot_04.png)
 ### 端口扫描
 ![Image](docs/images/screenshot_05.png)
+### 数据收集
+![Image](docs/images/screenshot_06.png)
+### 控制中心
+![Image](docs/images/screenshot_07.png)
+## 问题列举
+1. 在虚拟机里运行, 程序空白怎么解决?   
+如果是VMware, 打开VM虚拟机->首选项->显示->图形->勾选远程虚拟机的硬件加速 选项
+如果是VirtualBox, 打开设置->显示->显卡->勾选3D加速选项
 
 ## 版本日志
 [版本修改日志](docs/CHANGELOG.md)
