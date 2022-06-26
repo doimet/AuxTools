@@ -18,8 +18,16 @@
 ![Image](docs/images/screenshot_06.png)
 ### 网络限制
 ![Image](docs/images/screenshot_07.png)
-### 控制中心
+### 漏洞利用
+需配合我的另一个项目Polaris一起使用, 具体使用方法如下:      
+1.运行Polaris项目下的Server脚本, 启动web服务   
+```
+python Server.py --port=8080 --auth=password
+```
+2.打开程序, 启用漏洞利用模块, 填写接口地址和认证密码   
 ![Image](docs/images/screenshot_08.png)
+### 控制中心
+![Image](docs/images/screenshot_00.png)
 ## 问题列举
 1. 在虚拟机里运行, 程序空白?   
     解决方法如下:   
@@ -27,10 +35,10 @@
     + 如果是VirtualBox, 打开设置->显示->显卡->勾选3D加速选项
 
 2. 程序报毒?   
-原因是命令生成模块存储的命令被杀软检测到, 程序本身不存在任何恶意行为, 请师傅们放心食用   
+原因可能是命令生成模块存储的命令被杀软检测到, 程序本身不存在任何恶意行为, 请师傅们放心食用   
 
 3. 控制中心怎么打开?   
-双击菜单下面的滑块即可打开(5分钟后会自动关闭哦)
+双击菜单下面的小滑块即可打开(5分钟后会自动关闭哦)
 
 ## 版本日志
 [版本修改日志](docs/CHANGELOG.md)
