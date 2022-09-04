@@ -1,48 +1,54 @@
 <h1 align="center">AuxTools</h1>
 
 ## 项目简介
-图形化渗透辅助工具
+图形化渗透测试工具
 
 ## 使用示例
-### 杀软识别
+### 模块管理
+![Image](docs/images/screenshot_00.png)
+### 网站收藏
 ![Image](docs/images/screenshot_01.png)
-### 命令生成
-![Image](docs/images/screenshot_02.png)
-### 编码解码
-![Image](docs/images/screenshot_03.png)
-### 加密解密
-![Image](docs/images/screenshot_04.png)
-### 端口扫描
-![Image](docs/images/screenshot_05.png)
 ### 数据收集
-![Image](docs/images/screenshot_06.png)
-### 网络限制
-![Image](docs/images/screenshot_07.png)
+![Image](docs/images/screenshot_02.png)
+### 端口扫描
+![Image](docs/images/screenshot_03.png)
 ### 漏洞利用
 需配合我的另一个项目Polaris一起使用, 具体使用方法如下:      
 1.运行Polaris项目下的Server脚本, 启动web服务   
 ```
-python Server.py --port=8080 --auth=password
+python Server.py -port=8080 -auth=password
 ```
-2.打开程序, 启用漏洞利用模块, 填写接口地址和认证密码   
+2.打开程序, 启用漏洞利用模块, 填写接口地址和认证密码 
+![Image](docs/images/screenshot_04.png)
+### 命令生成
+![Image](docs/images/screenshot_05.png)
+### 文件下载
+![Image](docs/images/screenshot_06.png)
+### 杀软识别
+![Image](docs/images/screenshot_07.png)
+### 编码解码  
 ![Image](docs/images/screenshot_08.png)
-### 控制中心
-![Image](docs/images/screenshot_00.png)
+### 加密解密
+![Image](docs/images/screenshot_09.png)
+### 随机生成
+![Image](docs/images/screenshot_10.png)
+### 即时通讯
+![Image](docs/images/screenshot_11.png)
+
 ## 问题列举
 1. 在虚拟机里运行, 程序空白?   
     解决方法如下:   
-    + 如果是VMware, 打开VM虚拟机->菜单编辑->首选项->显示->图形->勾选远程虚拟机的硬件加速 选项; 如果打开还是白屏, 编辑虚拟机设置->显示器->3D图形->取消勾选3D加速图形
-    + 如果是VirtualBox, 打开设置->显示->显卡->勾选3D加速选项
+    + 编辑虚拟机设置->显示器->3D图形->取消勾选3D加速图形
 
-2. 程序报毒?   
-原因可能是命令生成模块存储的命令被杀软检测到, 程序本身不存在任何恶意行为, 请师傅们放心食用   
-
-3. 控制中心怎么打开?   
-双击菜单下面的小滑块即可打开(5分钟后会自动关闭哦)
+## 后续计划
+[ ] 信息搜集模块   
+[ ] 权限管理模块   
+[ ] 口令爆破模块   
+[ ] 免杀生成模块   
 
 ## 版本日志
 [版本修改日志](docs/CHANGELOG.md)
 
 ## 使用声明
 本工具仅用于安全测试目的   
-用于非法用途与开发者无关   
+用于非法用途与开发者无关     
