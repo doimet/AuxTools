@@ -22,18 +22,20 @@ python Server.py -port=8080 -auth=password
 ![Image](docs/images/screenshot_04.png)
 ### 命令生成
 ![Image](docs/images/screenshot_05.png)
-### 文件下载
+### 口令查询
 ![Image](docs/images/screenshot_06.png)
 ### 杀软识别
 ![Image](docs/images/screenshot_07.png)
-### 编码解码  
+### 文件下载
 ![Image](docs/images/screenshot_08.png)
-### 加密解密
+### 编码解码  
 ![Image](docs/images/screenshot_09.png)
-### 随机生成
+### 加密解密
 ![Image](docs/images/screenshot_10.png)
-### 即时通讯
+### 随机生成
 ![Image](docs/images/screenshot_11.png)
+### 即时通讯
+![Image](docs/images/screenshot_12.png)
 
 ## 问题列举
 1. 在虚拟机里运行, 程序空白?   
