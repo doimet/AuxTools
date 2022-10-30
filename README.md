@@ -10,6 +10,8 @@
 ![Image](docs/images/screenshot_01.png)
 ### 数据收集
 ![Image](docs/images/screenshot_02.png)
+### 站点扫描
+![Image](docs/images/screenshot_13.png)
 ### 端口扫描
 ![Image](docs/images/screenshot_03.png)
 ### 漏洞利用
