@@ -1,7 +1,8 @@
-<h1 align="center">AuxTools - 图形化渗透测试辅助工具</h1>
+<h1 align="center">萤火</h1>
 
 ## 项目简介
-图形化渗透测试辅助工具   偶尔会更新一下~
+渗透测试辅助工具   偶尔会更新一下~
+
 ## 界面截图
 ![Image](docs/images/screenshot_01.png)
 
