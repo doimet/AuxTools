@@ -19,7 +19,8 @@
 |  端口扫描 | 该模块用于执行端口扫描，允许用户扫描指定主机或 IP 地址上的开放端口，以识别可用的服务和应用程序 | windows/linux |  |
 |  目录扫描 | 该模块通过发送HTTP请求，分析服务器响应，利用字典和爬虫技术发现目标网站上的隐藏目录和文件 | windows/linux |  |
 |  指纹识别 | 该模块通过分析 Web 服务器响应，识别其使用的指纹特征和技术堆栈 | windows/linux |  |
-|  聚合资产搜索 | 该模块用于聚合搜索多个网络测绘平台（如Fofa、ZoomEye、Quake、Hunter、Shodan、Censys等）的资产信息，帮助用户快速定位相关的网络资源和漏洞 | windows/linux |  |
+|  页面截图 | 该模块通过分析 Web 服务器响应，识别其使用的指纹特征和技术堆栈 | windows/linux |  |
+|  聚合资产搜索 | 该模块用于聚合搜索多个网络测绘平台（如Fofa、ZoomEye、Quake、Hunter、Shodan、Censys等）的资产信息，帮助用户快速定位相关的网络资源和漏洞 | windows/linux | 该模块实现了页面截图功能 |
 |  邮箱收集 | 该模块用于收集和提取指定目标中的邮箱地址，常用于情报收集和数据分析 | windows/linux |  |
 |  CDN检测 | 该模块用于执行 CDN（内容分发网络）检测，允许用户确定指定域名或 IP 地址是否使用了 CDN 服务，并提供有关 CDN 提供商和配置的信息 | windows/linux |  |
 |  HOST碰撞 | 该模块通过生成大量可能的IP地址或主机名组合，并使用主动探测或发现来验证目标主机的存在性 | windows/linux |  |
@@ -45,7 +46,6 @@
 |  JSON处理 | 该模块用于对JSON数据进行格式化和美化，提升其可读性，方便查看和调试 | windows/linux |  |
 |  UserAgent解析 | 该模块用于解析UserAgent字符串，快速提取设备、操作系统和浏览器等关键信息 | windows/linux |  |
 |  文件类型检测 | 该模块用于检测文件类型，快速识别文件的格式和扩展名 | windows/linux |  |
-|  谷歌认证码生成 | 该模块用于生成谷歌认证码（Google Authenticator），支持基于时间的一次性密码（TOTP）验证 | windows/linux |  |
 |  同形异义字生成 | 该模块用于生成同形异义字，支持替换字符以模拟相似文本变体 | windows/linux |  |
 |  二维码解析 | 该模块用于解析二维码，提取其中包含的文本或链接信息 | windows/linux |  |
 
