@@ -28,6 +28,7 @@
 | 银行卡查询        | windows/linux |        |
 | 手机号归属地查询     | windows/linux |        |
 | 手机号注册查询      | windows/linux |        |
+| GitHub用户邮箱查询      | windows/linux |        |
 | 云厂商密钥利用      | windows/linux | 暂不对外开放 |
 | 数据库综合利用      | windows/linux |        |
 | 多服务口令猜解      | windows/linux |        |
