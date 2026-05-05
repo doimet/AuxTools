@@ -29,6 +29,7 @@
 | 手机号归属地查询     | windows/linux |        |
 | 手机号注册查询      | windows/linux |        |
 | GitHub用户邮箱查询      | windows/linux |        |
+| SVN&GIT泄露利用      | windows/linux |        |
 | 云厂商密钥利用      | windows/linux | 暂不对外开放 |
 | 数据库综合利用      | windows/linux |        |
 | 多服务口令猜解      | windows/linux |        |
@@ -37,7 +38,7 @@
 | 虚拟身份生成       | windows/linux |        |
 | EXIF信息提取     | windows/linux |        |
 | 社工字典生成       | windows/linux |        |
-| 程序属性修改       | windows/linux |        |
+| 程序属性修改       | windows |        |
 | 同形异义字生成      | windows/linux |        |
 | 基于ICMP正向主机控制 | windows/linux | 暂不对外开放 |
 | 基于ICMP反向主机控制 | windows/linux | 暂不对外开放 |
